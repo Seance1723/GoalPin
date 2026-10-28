@@ -1,0 +1,12 @@
+# Distribution repository: deny everything unless explicitly listed below.
+# Development source, tests, plans, ledgers, caches and local state stay local.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/.gitattributes
+!/releases/
+/releases/*
+!/releases/goalpin-skill-*.zip
+
+# Ignore rules do not remove files from earlier commits or existing clones.
